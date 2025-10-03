@@ -8,7 +8,9 @@
 def kilometer_conversion(kilometers):    
     miles = 0.0
     ######################
-    # WRITE YOUR CODE HERE
+Kilo_amount = int(input('What is the distance in kilometers you want to convert to distance in miles?: '))
+miles = kilo_amount * 0.6214 
+print(f'{kilo_amount} kilometers is equal to' , miles, 'miles')
     ######################    
 
 
